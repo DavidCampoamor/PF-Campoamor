@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* menu */
+.menu {
+    list-style-type: none;
+    background-color: rgb(9, 9, 68);
+    padding-inline: 50px;
+    padding-block: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.item-menu {
+    display: inline-block;
+    margin-inline: 50px;
+}
+
+.item-menu a {
+    color: red;
+    text-decoration: none;
+}
+
+/* imagen */
+
+.imagen-fondo {
+    width: 100%
+}
+
+/* texto */
+.titulo-inicio {
+    background-color: rgba(9, 9, 68, 0.699);
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+
+}
+
+.texto-inicio {
+    background-color: rgba(9, 9, 68, 0.650);
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    right: 65%;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.pie {
+    background-color: rgb(9, 9, 68);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-historia {
+    margin: 5%;
+}
+.nuestra-historia {
+    background-color: rgb(29, 29, 88);
+    color: white;
+    margin: 15%;
+    
+}
