@@ -12,11 +12,7 @@
     list-style-type: none;
     background-color: rgb(9, 9, 68);
     padding-inline: 50px;
-    padding-block: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+    display: flex;
 }
 
 .item-menu {
@@ -29,13 +25,13 @@
     text-decoration: none;
 }
 
-/* imagen */
+/* imagen inicio */
 
 .imagen-fondo {
     width: 100%
 }
 
-/* texto */
+/* texto inicio */
 .titulo-inicio {
     background-color: rgba(9, 9, 68, 0.699);
     position: absolute;
@@ -64,7 +60,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* nuestra historia */
 .titulo-historia {
     margin: 5%;
 }
@@ -72,5 +68,4 @@
     background-color: rgb(29, 29, 88);
     color: white;
     margin: 15%;
-    
 }
