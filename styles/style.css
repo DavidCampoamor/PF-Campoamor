@@ -73,12 +73,16 @@
 /* titulos page */
 
 .carousel-slide {
-    max-width: 50%;
+    justify-content: center;
 }
 
 /* eventos */
 
 .container {
+    background-color: rgb(29, 29, 88);
+    width: 100%;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+grid-template-areas: 
+"cumpleaños"   "casamiento"   "visitas";
 }
