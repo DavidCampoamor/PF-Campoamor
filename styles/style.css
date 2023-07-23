@@ -69,3 +69,8 @@
     color: white;
     margin: 15%;
 }
+/* titulos page */
+
+.carousel-slide {
+    max-width: 50%;
+}
