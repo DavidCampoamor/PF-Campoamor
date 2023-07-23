@@ -10,7 +10,7 @@
 /* menu */
 .menu {
     list-style-type: none;
-    background-color: rgb(9, 9, 68);
+    background-color: rgb(9, 9, 68) !important;
     padding-inline: 50px;
     display: flex;
 }
@@ -20,7 +20,7 @@
     margin-inline: 50px;
 }
 
-.item-menu a {
+.nav-item a {
     color: red;
     text-decoration: none;
 }
