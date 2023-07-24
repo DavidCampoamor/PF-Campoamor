@@ -79,10 +79,13 @@
 /* eventos */
 
 .container {
+    height: 100vh;
     background-color: rgb(29, 29, 88);
-    width: 100%;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-areas: 
-"cumpleaños"   "casamiento"   "visitas";
+}
+.evento-img {
+    display: flex;
+    width: 100%;
+    padding: 20px;
 }
