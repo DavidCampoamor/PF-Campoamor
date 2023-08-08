@@ -1,0 +1,23 @@
+.nuestra-historia {
+    background-image: url(../Img/camiseta.jpg);
+    color: white;
+
+    .text-history {
+        margin: 2% 15% 0 15%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(9, 9, 68);
+        border: 3px;
+        text-align: center;
+        justify-content: center;
+    
+        h2{
+            margin-top: 10px;
+            }
+         p{
+                margin: 20px;
+            }
+    }
+    
+}
+

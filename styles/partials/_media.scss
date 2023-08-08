@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+    .contenido {
+      top: 10%;
+      left: 5%;
+      transform: translate(-5%, -10%);
+    }
+  
+    .titulo-inicio {
+      font-size: 18px;
+    }
+  
+    .texto-inicio {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .titulos-casla {
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas:
+        "sec1 sec1 sec5 sec5"
+        "sec2 sec2 sec6 sec6"
+        "sec3 sec3 sec7 sec7"
+        "sec4 sec4 sec8 sec8";
+      margin: 0 2px;
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      align-items: center;
+      margin: 20px;
+  
+      .card-body {
+        margin: 20px;
+      }
+    }
+  }

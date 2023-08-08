@@ -1,0 +1,14 @@
+.menu {
+    list-style-type: none;
+    background-color: rgb(9, 9, 68) !important;
+    padding-inline: 50px;
+    display: flex;
+}
+.item-menu {
+    display: inline-block;
+    margin-inline: 50px;
+}
+.nav-item a {
+    color: red;
+    text-decoration: none;
+}

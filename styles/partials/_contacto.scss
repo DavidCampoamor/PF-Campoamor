@@ -1,0 +1,30 @@
+.contact-tittle {
+    color: red;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .text-tittle {
+    color: red;
+    margin: auto;
+    text-align: center;
+  }
+  .form-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+  
+    input {
+      margin: 5px;
+    }
+  
+    button {
+      margin: auto;
+      margin-top: 5px;
+      max-width: 150px;
+      justify-content: center;
+    }
+  }
